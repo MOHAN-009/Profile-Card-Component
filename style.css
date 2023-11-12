@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@500&family=Lexend+Deca&family=Outfit:wght@500&family=Red+Hat+Display:wght@500&display=swap');
+
+*, *::before , *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+/* .bg-pattern-top {
+    position: relative;
+    top: -500px;
+    left: -400px;
+} */
+
+/* .bg-pattern-bottom {
+   
+} */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-wrap: nowrap;
+}
+
+.card {
+    display: grid;
+    place-content: center;
+    border: transparent;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.card-background {
+    border-radius: 0.65rem 0.65rem 0 0;
+    margin-bottom: 4rem;
+}
+
+.profile-pic {
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    position: absolute;
+    top: 4.5rem;
+    left: 6rem;
+}
+
+
+h1, h2{
+    font-family: 'Kumbh Sans' , sans-serif;
+    font-weight: 900;
+    color: hsl(229, 23%, 23%);
+    font-size: large;
+}
+
+.text {
+    font-family: 'kumbh Sans', sans-serif;
+    font-weight: 300;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.name {
+    display: grid;
+    place-content: center;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    text-align: center;
+}
+
+.age {
+    color: hsl(227, 10%, 46%);
+    font-weight: 300;
+    padding-left: 0.25rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-left: 0.5rem;
+    /* margin-left: 0.75rem; */
+    border: 2px solid hsla(206, 7%, 60%, 0.325);
+    border-radius: 0 0 0.65rem 0.65rem;
+}
+
+.followers , .likes , .photos {
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.5rem;  
+}
+
